@@ -6,3 +6,8 @@ function objectToArray(obj) {
   }
   return arr;
 }
+
+// another solution
+function objectToArray(obj) {
+  return Object.entries(obj);
+}
